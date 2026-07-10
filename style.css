@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.common-btn {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+.nav-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 70px;
+}
+
+.nav-logo {
+  flex: 1;
+  text-align: left;
+}
+
+.nav-menu {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-button {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-middle {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+  color: #575757;
+}
