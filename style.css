@@ -412,3 +412,51 @@ img {
   color: #1d4ed8;
   padding: 5px 0px;
 }
+
+/* footer section */
+
+footer {
+  background-color: #0d1b2a;
+  padding: 20px;
+  margin-top: 50px;
+}
+.footer-logo {
+  padding: 0px 50px;
+}
+
+.footer-social {
+  padding: 0px 50px;
+}
+
+.footer-social i {
+  font-size: 24px;
+  color: #1d4ed8;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #575757;
+  margin: 10px 0;
+}
+
+.footer-two {
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.footer-p {
+  display: flex;
+  gap: 20px;
+}
